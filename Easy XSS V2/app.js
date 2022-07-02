@@ -190,7 +190,7 @@ browser.menus.onClicked.addListener((info, tab) => {
     case "payload10":
       copyStringToClipboard('?configUrl=https://jumpy-floor.surge.sh/test.json');
       break; 
-    case "payload10":
+    case "payload11":
       copyStringToClipboard('?url=https://jumpy-floor.surge.sh/test.yaml');
       break; 
   }
