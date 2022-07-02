@@ -1,0 +1,25 @@
+{
+
+    "manifest_version": 2,
+    "name": "Easy XSS V2",
+    "description": "__MSG_pluginDesc__",
+    "version": "1.0",
+    "default_locale": "en",
+    "applications": {
+      "gecko": {
+        "strict_min_version": "56.0a1"
+      }
+    },
+  
+    "background": {
+      "scripts": ["app.js"]
+    },
+    
+    "permissions": [
+      "menus",
+      "activeTab",
+      "clipboardRead",
+      "clipboardWrite"
+    ]
+  
+  }

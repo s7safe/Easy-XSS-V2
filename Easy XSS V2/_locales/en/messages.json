@@ -1,0 +1,4 @@
+{
+    "pluginDesc": {"message": "Easy XSS V2"},
+    "helloWorld": {"message": "XSS!"}
+}
